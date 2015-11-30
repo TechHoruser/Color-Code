@@ -1,0 +1,22 @@
+Autores:
+Jose Antonio Caravaca Diosdado
+Francisco Javier Ponce ROsales
+
+Uso de la aplicación:
+La aplicación comienza con una pantalla, al pulsar sobre la espiral se dará paso al juego.
+(puede demorarse varios segundos en cargar)
+
+En la pantalla de juego encontramos un cronómetro arriba a la derecha, podemos hacer click
+en los números del cronómetro para indicar el tiempo que tendremos para completar el juego,
+para comenzar el juego pulsamos sobre el boton Start del cronómetro, si no, Vuforia simplemente
+nos mostrará el símbolo # cuando reconozca un FrameMaker.
+Una vez pulsado el boton Start, comenzará la cuena atrás internamente(No mostramos la cuenta atrás, debido
+a que si lo hacemos, no se pueden cambiar la combinacion en los botones coloreados del juego).
+Para ganar el juego, debes buscar los FrameMarker con ID 0, 1 y 2, aparecerá un número con
+un color, debes escribir el número en el botón con su color correspondiente.
+Tienes 3 intentos(se muestran en la parte superior izquierda de la pantalla), si fallas 3 veces
+o no lo consigues antes de que acabe el tiempo del cronómetro, pierdes el juego.
+Cuando el juego acaba, ya sea perdiendo o ganando, se muestra un mensaje por pantalla
+y un botón de Restar, que reinicia el juego, creando nueos números y colores.
+Además en a parte inferior derecha, hay un botón de créditos, que cambiará a la escena de créditos.
+En esta escena aparecen los créditos, un botón que nos permite volver al juego.
